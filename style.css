@@ -1,0 +1,193 @@
+/* UNIVERSAL SELECTOR */
+* {
+	margin: 0;
+	font-family: 'Montserrat', Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	box-sizing: border-box;
+	font-size: 18px;
+    line-height: 32px;
+}
+
+/* BUTTONS */
+	.btn-warning
+	{
+		border-radius: 10px;
+		background-color: #fd554f;
+		color: white;
+		font-weight: 500;
+		border: none;
+	}
+
+	.btn-warning:hover
+	{
+		background-color: transparent;
+		border: 2px solid #fd554f;
+		color: #fd554f;
+	}
+
+/* ELEMENT-WIDE STYLING */
+	header
+	{
+		padding: 20px 15px;
+		background-image: url('img/background.png');
+		background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	}
+
+	body
+	{
+		background: #b6ddd4;
+	}
+
+	h1, h2, h3, h4, h5, h6
+	{
+		font-family: 'Poppins', sans-serif;
+		font-weight: bold;
+	}
+
+	a, i
+	{
+		color: white;
+	}
+
+	a:hover, i:hover
+	{
+		color: #fd554f;
+	}
+
+	footer
+	{
+		background: #365157;
+		color: white;
+	}
+
+	img
+	{
+		width: 100%
+	}
+
+/* TEXT CUSTOMIZATION */
+	.capsule p
+	{
+		font-size: 22px;
+		font-weight: 500;
+	}
+
+	.text-style h2
+	{
+		font-size: 45px;
+		color: #334e54;
+	}
+
+	.text-style p
+	{
+		font-size: 23px;
+		line-height: 49px;
+		font-weight: 300;
+	}
+
+	.cta h2
+	{
+		font-size: 45px;
+		color: white;
+	}
+
+	.cta p
+	{
+		font-size: 24px;
+		color: white;
+	}
+	
+/* NAVIGATION MENU */
+	.nav-link
+	{
+		color: #334e54 !important;
+		font-weight: 500;
+	}
+
+	.nav-link:hover
+	{
+		color: white !important;
+	}
+
+	.navbar-nav li
+	{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+/* HEADER SECTION */
+	.header-section
+	{
+		padding: 15% 0 23.5% 0;
+	}
+
+/* ABOUT SECTION */
+	.capsule
+	{
+		border-radius: 15px;
+		background-color: white;
+		padding: 0;
+	}
+
+	.capsule-text
+	{
+		padding: 4%;
+	}
+
+	.about-section img
+	{
+	    border-radius: 15px 15px 0 0;
+	}
+
+/* MAKE A CHILD SMILE SECTION */
+	.cta-section
+	{
+		background-image: url('img/child-smile.png');
+		background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	}
+
+/* CONTACT SECTION */
+	.form-style
+	{
+		background-color: #cbebe4;
+	}
+
+	.form-control
+	{
+		border-radius: 7px;
+	}
+
+	.pills
+	{
+		height: 100%;
+	}
+
+	.pill 
+	{
+		background-color: #365157;
+		border-radius: 10px;
+		color: white;
+	    margin-bottom: 15px;
+	}
+
+/* FOOTER SECTION */
+	.footer-items a, .fa
+	{
+		font-size: 20px;
+		padding: 0 10px;
+	}
+
+/* MOBILE DEVICES RESPONSIVENESS */
+@media only screen and (max-width: 414px)
+{
+	header
+	{
+	    background-image: url('img/background.png'), linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.8));
+		background-blend-mode: overlay;
+	}
+}
